@@ -22,15 +22,29 @@ body{
 .header{
     grid-column: 1/-1;
     background-color: rgb(224, 143, 143);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
 }
 .footer{
     grid-column: 1/-1;
-    background-color: rgb(43, 66, 87);
+    background-color: rgb(75, 95, 114);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.aside{
-    background-color: rgb(57, 99, 99);
+.sidebar{
+    background-color: rgb(132, 163, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .content{
     background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
