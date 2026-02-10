@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+    grid-template-rows: 1fr 12fr 1fr;
+    /* gap: 10px; */
+}
+.box{
+    border: 2px solid black;
+}
+.header{
+    grid-column: 1/-1;
+    background-color: rgb(224, 143, 143);
+}
+.footer{
+    grid-column: 1/-1;
+    background-color: rgb(43, 66, 87);
+    color: white;
+}
+.aside{
+    background-color: rgb(57, 99, 99);
+}
+.content{
+    background-color: bisque;
+}
