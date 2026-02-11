@@ -22,10 +22,25 @@ body{
 .header{
     grid-column: 1/-1;
     background-color: rgb(224, 143, 143);
-    display:flex;
-    justify-content:space-between;
+    /* display:flex;
+    justify-content:center;
+    align-items: center; */
+}
+.head-nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(54, 110, 221);
+}
+
 .footer{
     grid-column: 1/-1;
     background-color: rgb(75, 95, 114);
